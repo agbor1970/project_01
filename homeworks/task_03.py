@@ -13,4 +13,3 @@ if month < 1 or month > 12:
 else:
     print(list[month-1])
 
-
