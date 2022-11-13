@@ -12,3 +12,14 @@ if month < 1 or month > 12:
     print('Номер месяца введен некорректно')
 else:
     print(list[month-1])
+
+#Второй вариант решения
+""" list = [31, 30, 28]
+if month in (1, 3, 5, 7, 10, 12):
+   print(list[0])
+elif month == 2:
+   print (list[2])
+elif month in (4, 6, 9, 11):
+   print(list[1])
+else:
+   print('Номер введен некорректно') """
