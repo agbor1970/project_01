@@ -12,4 +12,3 @@ if month < 1 or month > 12:
     print('Номер месяца введен некорректно')
 else:
     print(list[month-1])
-
